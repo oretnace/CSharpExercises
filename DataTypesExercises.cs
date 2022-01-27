@@ -135,7 +135,7 @@
 
             try
             {
-                x = Convert.ToInt32(Console.ReadLine);
+                x = Convert.ToInt32(Console.ReadLine());
                 string y = Convert.ToString(x, 2);
                 Console.WriteLine("Binary version: " + y);
             } catch
